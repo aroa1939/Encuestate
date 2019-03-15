@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Encuestate</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #a6f3c2;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -81,8 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Encuestate
                 </div>
+                <div>
+                    Encuestate es una herramienta para la creación para la creación de encuestas dirigidas
+                    al ambito sanitario, cuyo objetivo es conocer las valoraciones que se le atribuyen a la empresa por
+                    parte de los pacientes y empleados.<br>
+
+                </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -93,7 +100,14 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <div align="right">
+                Aroa López Ávarez
+                </div>
+                <div align="right">
+                Marta Núñez Cascales
+                </div>
+                </div>
             </div>
-        </div>
+
     </body>
 </html>
