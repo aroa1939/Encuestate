@@ -17,7 +17,10 @@
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
-                margin: 0;
+                margin-left: 40px;
+                margin-right: 40px;
+
+
             }
 
             .full-height {
@@ -60,6 +63,7 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+
             }
         </style>
     </head>
@@ -84,7 +88,7 @@
                     Encuestate
                 </div>
                 <div>
-                    Encuestate es una herramienta para la creación para la creación de encuestas dirigidas
+                    Encuestate es una herramienta para la creación de encuestas dirigidas
                     al ambito sanitario, cuyo objetivo es conocer las valoraciones que se le atribuyen a la empresa por
                     parte de los pacientes y empleados.<br>
 
