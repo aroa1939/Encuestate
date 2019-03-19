@@ -13,7 +13,7 @@
         <style>
             html, body {
                 background-color: #a6f3c2;
-                color: #636b6f;
+                color: #1b1e21;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -52,7 +52,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color:#000000;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -63,7 +63,6 @@
 
             .m-b-md {
                 margin-bottom: 30px;
-
             }
         </style>
     </head>
@@ -96,13 +95,13 @@
 
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">Clínica</a>
+                    <a href="https://laracasts.com">Sobre nosotros</a>
+                    <a href="https://laravel-news.com">Pacientes</a>
+                    <a href="https://blog.laravel.com">Trabajadores</a>
+                    <a href="https://nova.laravel.com">Interés</a>
+                    <a href="https://forge.laravel.com">Noticias</a>
+                    <a href="https://github.com/laravel/laravel">Redes sociales</a>
                 </div>
                 <div align="right">
                 Aroa López Ávarez
