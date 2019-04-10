@@ -87,7 +87,7 @@
                     Encuestate
                 </div>
                 <div>
-                    Encuestate es una herramienta para la creación de encuestas dirigidas
+                    Encuéstate es una herramienta para la creación de encuestas dirigidas
                     al ambito sanitario, cuyo objetivo es conocer las valoraciones que se le atribuyen a la empresa por
                     parte de los pacientes y empleados.<br>
 
