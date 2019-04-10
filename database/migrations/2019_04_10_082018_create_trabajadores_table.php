@@ -30,7 +30,6 @@ class CreateTrabajadoresTable extends Migration
             $table->string('nie');
             $table->string('post');
             $table->rememberToken();
-            $table->timestamps();
             $table->bigIncrements('id');
             $table->timestamps();
         });

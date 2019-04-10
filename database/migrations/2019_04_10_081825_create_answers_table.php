@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRespuestasTable extends Migration
+class CreateAnswersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,7 +15,6 @@ class CreateRespuestasTable extends Migration
     {
         Schema::create('answer', function (Blueprint $table) {
             $table->bigIncrements('id_answer');
-            $table->bigIncrements('id');
             $table->timestamps();
         });
     }
@@ -27,6 +26,6 @@ class CreateRespuestasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('respuestas');
+        Schema::dropIfExists('answers');
     }
 }

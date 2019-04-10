@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEncuestasTable extends Migration
+class CreateQuestionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateEncuestasTable extends Migration
      */
     public function up()
     {
-        Schema::create('survey', function (Blueprint $table) {
-            $table->bigIncrements('id_survey');
-            $table->string('title');
-            $table->bigIncrements('id');
+        Schema::create('question', function (Blueprint $table) {
+            $table->bigIncrements('id_question');
+            $table->string('title_question');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateEncuestasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('encuestas');
+        Schema::dropIfExists('preguntas');
     }
 }
