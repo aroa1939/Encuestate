@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateTrabajadoresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,23 +13,26 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('employee', function (Blueprint $table) {
+            $table->bigIncrements('id_employee');
             $table->string('name');
             $table->string('surname1');
-            $table->string('surname2')-> nullable();
+            $table->string('surname2');
             $table->string('telephone');
             $table->string('address');
-            $table->string('CP');
+            $table->string('cp');
             $table->string('password')->unique();
             $table->timestamp('password_verified_at')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('NIF')->nullable();
-            $table->string('nationality')->nullable();
-            $table->string('NIE')->nullable();
+            $table->string('nif');
+            $table->string('nationality');
+            $table->string('nie');
+            $table->string('post');
             $table->rememberToken();
             $table->timestamps();
+            //$table->bigIncrements('id');
+
         });
     }
 
@@ -40,6 +43,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('employee');
     }
 }

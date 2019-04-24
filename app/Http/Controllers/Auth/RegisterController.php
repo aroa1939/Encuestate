@@ -51,6 +51,15 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'surname1' => ['required', 'string', 'max:255'],
+            'surname2' => [ 'string', 'max:255'],
+            'telephone' => ['required', 'string', 'max:255'],
+            'address' => ['required', 'string', 'max:255'],
+            'CP' => ['required', 'string', 'max:255'],
+            'NIF' => [ 'string', 'max:255'],
+            'nationality' => ['string', 'max:255'],
+            'NIE' => [ 'string', 'max:255'],
+            //'typeUser' => ['required', 'in:trabajador,cliente'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -66,6 +75,15 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'surname1' => $data['surname1'],
+            'surname2' => $data['surname2'],
+            'telephone' => $data['telephone'],
+            'address' => $data['address'],
+            'CP' => $data['CP'],
+            'NIF' => $data['NIF'],
+            'nationality' => $data['nationality'],
+            'NIE' => $data['NIE'],
+            //'typeUser' => $data['typeUser'],
             'password' => Hash::make($data['password']),
         ]);
     }
