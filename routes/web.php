@@ -14,8 +14,13 @@ Route::get('login', function() {
     // ...
 })->name('login');
 
+Route::get('login', function() {
+    // ...
+})->name('login');
+
 Route::get('/', function () {
     return view('welcome');
+
 });
 
 Auth::routes();

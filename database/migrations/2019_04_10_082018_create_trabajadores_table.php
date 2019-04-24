@@ -31,8 +31,8 @@ class CreateTrabajadoresTable extends Migration
             $table->string('post');
             $table->rememberToken();
             $table->timestamps();
-            //$table->bigIncrements('id');
-
+            $table->bigIncrements('id');
+            $table->timestamps();
         });
     }
 
@@ -43,6 +43,6 @@ class CreateTrabajadoresTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('employee');
+        Schema::dropIfExists('trabajadores');
     }
 }
