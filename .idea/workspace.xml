@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c067691b-1f8b-4d32-b772-e114bd7cf055" name="Default Changelist" comment="version con la correcta creacion de la BD y nombres en mismo idioma.">
-      <change afterPath="$PROJECT_DIR$/resources/views/encuestas/index.blade.php" afterDir="false" />
+    <list default="true" id="c067691b-1f8b-4d32-b772-e114bd7cf055" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Encuesta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Encuesta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Pregunta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Pregunta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Respuesta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Respuesta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_081620_create_surveys_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_081825_create_answers_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_081925_create_questions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_10_082018_create_trabajadores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_082018_create_trabajadores_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -58,7 +47,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -276,6 +265,17 @@
             <path>
               <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,6 +297,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,7 +360,7 @@
       <workItem from="1558460878515" duration="318000" />
       <workItem from="1558511488069" duration="8097000" />
       <workItem from="1558708873072" duration="4163000" />
-      <workItem from="1558952687140" duration="3181000" />
+      <workItem from="1558952687140" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="2 entrega">
       <created>1552668791419</created>
@@ -392,17 +397,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554890381873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version con la correcta creacion de la BD y nombres en mismo idioma.">
+      <created>1558957421875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558957421875</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44569000" />
+    <option name="totallyTimeSpent" value="45466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,7 +429,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49798658" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -669,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_082018_create_trabajadores_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -700,6 +705,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
