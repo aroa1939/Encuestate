@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c067691b-1f8b-4d32-b772-e114bd7cf055" name="Default Changelist" comment="version 2 con la correcta creacion de la BD y nombres en mismo idioma.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c067691b-1f8b-4d32-b772-e114bd7cf055" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +34,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="221">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-311">
+            <state relative-caret-position="1321">
               <caret line="3863" column="46" selection-start-line="3863" selection-start-column="46" selection-end-line="3863" selection-end-column="46" />
             </state>
           </provider>
@@ -64,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -78,15 +89,6 @@
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_082018_create_trabajadores_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -148,10 +150,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_04_10_082018_create_trabajadores_table.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_28_082018_create_trabajadores_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php" />
       </list>
     </option>
   </component>
@@ -257,6 +259,11 @@
             <path>
               <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +271,22 @@
               <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encuestate" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Encuestate" type="b2602c69:ProjectViewProjectNode" />
@@ -333,7 +356,7 @@
       <workItem from="1558460878515" duration="318000" />
       <workItem from="1558511488069" duration="8097000" />
       <workItem from="1558708873072" duration="4163000" />
-      <workItem from="1558952687140" duration="6901000" />
+      <workItem from="1558952687140" duration="7883000" />
     </task>
     <task id="LOCAL-00001" summary="2 entrega">
       <created>1552668791419</created>
@@ -391,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558958205787</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="version 2 con la correcta creacion de la BD y nombres en mismo idioma.">
+      <created>1558965378995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558965378995</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48289000" />
+    <option name="totallyTimeSpent" value="49271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,12 +438,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4986577" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39928058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -642,13 +673,6 @@
     <entry file="file://$PROJECT_DIR$/app/Encuestas.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_082018_create_trabajadores_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -663,13 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -700,17 +717,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php">
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1321">
+          <caret line="3863" column="46" selection-start-line="3863" selection-start-column="46" selection-end-line="3863" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104713_create_respuestas_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="3863" column="46" selection-start-line="3863" selection-start-column="46" selection-end-line="3863" selection-end-column="46" />
+        <state relative-caret-position="221">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104639_create_preguntas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_104510_create_encuestas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
         </state>
       </provider>
     </entry>
