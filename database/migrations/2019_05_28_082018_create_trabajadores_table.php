@@ -13,8 +13,8 @@ class CreateTrabajadoresTable extends Migration
      */
     public function up()
     {
-        Schema::create('employee', function (Blueprint $table) {
-            $table->bigIncrements('id_employee');
+        Schema::create('trabajadores', function (Blueprint $table) {
+            $table->bigIncrements('id');
             $table->string('name');
             $table->string('surname1');
             $table->string('surname2');
@@ -30,8 +30,6 @@ class CreateTrabajadoresTable extends Migration
             $table->string('nie');
             $table->string('post');
             $table->rememberToken();
-            $table->timestamps();
-            $table->bigIncrements('id');
             $table->timestamps();
         });
     }

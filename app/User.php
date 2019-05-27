@@ -19,6 +19,10 @@ class User extends Authenticatable
         'name','surname1','surname2','telephone','address','CP','NIF','nationality','NIE','email', 'password',
     ];
 
+    public function getFullNameAttribute(){
+        return $this -> names.''.$this -> surname;
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *
