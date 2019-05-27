@@ -13,7 +13,7 @@ class CreateEncuestasTable extends Migration
      */
     public function up()
     {
-        Schema::create('encuestas', function (Blueprint $table) {
+        Schema::create('encuestas', function (Blueprint $table)  {
             $table->bigIncrements('id');
             $table->string('title');
             $table->timestamps();

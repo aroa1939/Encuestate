@@ -13,7 +13,7 @@ class CreatePreguntasTable extends Migration
      */
     public function up()
     {
-        Schema::create('preguntas', function (Blueprint $table) {
+        Schema::create('preguntas', function (Blueprint $table)  {
             $table->bigIncrements('id');
             $table->string('tituloPregunta');
             $table->unsignedBigInteger('encuesta_id');
