@@ -3,15 +3,16 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Pregunta;
 
 class Encuesta extends Model
 {
     //
-    protected $fillable = ['Titulo'];
+    protected $fillable = ['titulo'];
 
     public function preguntas()
     {
-        return $this -> hasMany('App/Preguntas');
+        return $this -> hasMany('App\Pregunta');
     }
 
 

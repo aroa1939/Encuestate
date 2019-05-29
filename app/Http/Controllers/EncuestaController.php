@@ -29,6 +29,7 @@ class EncuestaController extends Controller
     public function create()
     {
         //
+        //$encuestas=Encuesta::all()->pluck('titulo','id');
 
         return view('encuestas/create');
     }
@@ -42,6 +43,19 @@ class EncuestaController extends Controller
     public function store(Request $request)
     {
         //
+        //hace el save
+        //dd($request); //imprime lo que quieras, y para la ejecucion
+        $this->validate($request, [
+            'titulo' => 'required|max:252'
+
+        ]);
+
+
+        $encuesta = new Encuesta($request->all());
+        $encuesta->save();
+        flash('Encuesta creada correctamente');
+        return view('encuestas/index');
+
     }
 
     /**
@@ -61,9 +75,13 @@ class EncuestaController extends Controller
      * @param  \App\Encuesta  $encuesta
      * @return \Illuminate\Http\Response
      */
-    public function edit(Encuesta $encuesta)
+    public function edit($id)
     {
         //
+        $encuesta= Encuesta::find($id);
+        //$pregunta = Preguntas::all();
+        return view('encuestas/edit',['encuesta'=>$encuesta]);
+
     }
 
     /**
@@ -73,9 +91,20 @@ class EncuestaController extends Controller
      * @param  \App\Encuesta  $encuesta
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Encuesta $encuesta)
+    public function update(Request $request, $id)
     {
         //
+        $this->validate($request, [
+            'titulo' => 'required|max:252'
+            //'id' => 'required|exists:encuestas,id',
+
+
+        ]);
+        $encuesta = Encuesta::find($id);
+        $encuesta->fill($request->all());
+        $encuesta->save();
+        flash('Encuesta modificada correctamente');
+        return redirect()->route('encuestas.index');
     }
 
     /**
@@ -84,8 +113,12 @@ class EncuestaController extends Controller
      * @param  \App\Encuesta  $encuesta
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Encuesta $encuesta)
+    public function destroy($id)
     {
         //
+        $encuesta= Encuesta::find($id);
+        $encuesta->delete();
+        flash('Encuesta borrada correctamente');
+        return redirect()->route('encuestas.index');
     }
 }
