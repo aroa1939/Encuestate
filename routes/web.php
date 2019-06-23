@@ -28,3 +28,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route:: resource('encuestas','EncuestaController');
+
+Route:: resource('preguntas','PreguntaController');
+Route:: resource('respuestas','RespuestaController');
+
+Route::post('respuestas/[id]','PreguntaController@show');
+
+

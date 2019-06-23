@@ -18,7 +18,7 @@ class CreateRespuestasTable extends Migration
             $table->integer('respuesta');
 
             $table->unsignedBigInteger('pregunta_id');
-            $table->timestamps();
+          //  $table->timestamps();
 
             $table->foreign('pregunta_id')->references('id')->on('preguntas')->onDelete('cascade');
         });

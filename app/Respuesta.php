@@ -8,11 +8,12 @@ class Respuesta extends Model
 {
     //
     protected $fillable = [
-        'Respuesta'];
+        'respuesta', 'pregunta_id'];
 
 
     public function pregunta(){
-        return $this-> belongsTo('App/Respuesta');
+        return $this-> belongsTo('App\Pregunta');
     }
+
 
 }

@@ -17,8 +17,8 @@
                         <table class="table table-striped table-bordered">
                             <tr>
                                 <th>titulo</th>
-                                <th>Id</th>
-                                <th colspan="2">Acciones</th>
+                                <th>id</th>
+                                <th colspan="3">Acciones</th>
                             </tr>
 
                             @foreach ($encuestas as $encuesta)
@@ -38,6 +38,13 @@
                                         {!! Form::close() !!}
 
                                     </td>
+                                    <td>
+                                        {!! Form::open(['route' => ['respuestas.show',$encuesta->id], 'method' => 'get']) !!}
+                                        {!!   Form::submit('Responder', ['class'=> 'btn btn-info'])!!}
+                                        {!! Form::close() !!}
+
+                                    </td>
+
                                 </tr>
                             @endforeach
                         </table>

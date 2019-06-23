@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('EurodentalWeb', 'EurodentalWeb') }}</title>
+    <title>{{ config('Encuestate', 'Encuestate') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -61,33 +61,25 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/especialidades') }}">
-                                        Especialidades
+                                    <a href="{{ url('/preguntas') }}">
+                                        Preguntas
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ url('/pacientes') }}">
-                                        Pacientes
+                                    <a href="{{ url('/respuestas') }}">
+                                        Respuestas
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ url('/servicios') }}">
-                                        Servicios
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ url('/asistentes') }}">
-                                        Asistentes
+                                    <a href="{{ url('/respuestas/[id]') }}">
+                                        Responder
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a href="{{ url('/citas') }}">
-                                        Citas
-                                    </a>
-                                </li>
+
+
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -98,11 +90,13 @@
                                     @csrf
                                 </form>
             </div>
+
             </li>
             @endguest
             </ul>
         </div>
-</div>
+
+
 </nav>
 
 <main class="py-4">

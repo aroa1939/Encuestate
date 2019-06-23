@@ -54,8 +54,8 @@ class EncuestaController extends Controller
         $encuesta = new Encuesta($request->all());
         $encuesta->save();
         flash('Encuesta creada correctamente');
-        return view('encuestas/index');
-
+        $encuestas= Encuesta::all();
+        return view('encuestas/index',['encuestas'=>$encuestas]);
     }
 
     /**
@@ -64,9 +64,11 @@ class EncuestaController extends Controller
      * @param  \App\Encuesta  $encuesta
      * @return \Illuminate\Http\Response
      */
-    public function show(Encuesta $encuesta)
+    public function show(Encuesta $id)
     {
-        //
+        $encuesta = Encuesta::find($id);
+        return View::make('respuestas.show')->with('encuesta', $encuesta);
+        //return view('respuestas.show')->with('encuesta', $encuesta);
     }
 
     /**
